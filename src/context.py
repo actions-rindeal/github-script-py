@@ -2,7 +2,7 @@ import os
 import json
 
 
-class NestedDict(dict):
+class DotDict(dict):
     """
     Class representing a dictionary with dot notation access.
     """
