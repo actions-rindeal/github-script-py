@@ -19,7 +19,7 @@ class DotDict(dict):
         if item in self:
             del self[item]
 
-class Event(NestedDict):
+class Event(DotDict):
     """
     Class representing the event details of a GitHub workflow.
     """
